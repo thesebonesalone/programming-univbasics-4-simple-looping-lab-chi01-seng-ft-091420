@@ -20,4 +20,11 @@ def output_array(message)
   puts message
 end
 
-return_string_array(array)
+def return_string_array(array)
+  new_array = []
+  counter = 0
+  while counter < array.length do
+    new_array[counter] = array[counter].to_s
+    counter += 1
+  end
+end

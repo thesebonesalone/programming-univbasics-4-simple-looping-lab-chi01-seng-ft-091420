@@ -19,3 +19,5 @@ end
 def output_array(message)
   puts message
 end
+
+return_string_array(array)
